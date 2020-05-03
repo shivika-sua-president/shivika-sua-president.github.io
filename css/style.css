@@ -1,17 +1,25 @@
 /**************** common factors ****************/
 :root {
-  --magenta: #B8006D;
+  --red: #B8006D;
   --yellow: #FADF28;
   --pink: #FAA5D7;
-  --lightblue: #28EBFA;
-  --aqua: #72B3B8;
+  --aqua: #28EBFA;
+  --blue: #72B3B8;
+  --darkblue: #118891;
+  --green: #6EC677;
+  --lightgreen: #5bf06a;
+  --black: black;
 }
+
+@import url(//db.onlinewebfonts.com/c/e65887ff9d62e672232e19c5e0a8862d?family=Nouvelle+Vague);
+@font-face {
+  font-family: "Nouvelle Vague"; src: url("//db.onlinewebfonts.com/t/e65887ff9d62e672232e19c5e0a8862d.eot"); src: url("//db.onlinewebfonts.com/t/e65887ff9d62e672232e19c5e0a8862d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e65887ff9d62e672232e19c5e0a8862d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/e65887ff9d62e672232e19c5e0a8862d.woff") format("woff"), url("//db.onlinewebfonts.com/t/e65887ff9d62e672232e19c5e0a8862d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/e65887ff9d62e672232e19c5e0a8862d.svg#Nouvelle Vague") format("svg"); } 
 
 /**************** extend css start ****************/
 @import url("https://fonts.googleapis.com/css?family=Cardo|Roboto:400,400i|Rufina");
 /* line 6, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_extends.scss */
 .btn_1 {
-  background-image: linear-gradient(to left, var(--magenta) 0%, var(--pink) 49%, var(--magenta) 100%);
+  background-image: linear-gradient(to left, var(--aqua) 0%, var(--black) 49%, var(--aqua) 100%);
 }
 
 /**************** extend css start ****************/
@@ -569,6 +577,7 @@ ul {
   padding: 13.5px 45px;
   border-radius: 50px;
   font-size: 14px;
+  font-weight: bold;
   color: #fff;
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
@@ -2228,7 +2237,7 @@ ul {
 
 /* line 16, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_menu.scss */
 .home_menu .main-menu-item ul li .nav-link {
-  color: #ab7636;
+  color: var(--aqua);
 }
 
 /* line 24, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_menu.scss */
@@ -2238,7 +2247,7 @@ ul {
 
 /* line 29, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_menu.scss */
 .single_page_menu .main-menu-item ul li .nav-link:hover {
-  color: #ab7636 !important;
+  color: var(--aqua) !important;
 }
 
 /* line 38, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_menu.scss */
@@ -2280,19 +2289,20 @@ ul {
 
 /* line 70, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_menu.scss */
 .main_menu .menu_btn {
-  border: 1px solid #dde0e3;
-  color: #ab7636;
+  border: 1px solid var(--white);
+  color: var(--white);
   font-size: 16px;
+  font-weight: bold;
   padding: 9px 41px;
   border-radius: 50px;
-  background-color: #fff;
+  background-color: var(--blue);
 }
 
 /* line 77, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_menu.scss */
 .main_menu .menu_btn:hover {
-  background-color: #ab7636;
-  border: 1px solid #ab7636;
-  color: #fff;
+  background-color: var(--white);
+  border: 1px solid var(--blue);
+  color: var(--blue);
 }
 
 /* line 85, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_menu.scss */
@@ -2335,7 +2345,7 @@ ul {
   transform: scale(1, 0);
   display: block;
   border: 0px solid transparent;
-  background-color: var(--aqua);
+  background-color: var(--blue);
 }
 
 /* line 114, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_menu.scss */
@@ -2343,7 +2353,7 @@ ul {
   font-size: 14px;
   padding: 8px 20px !important;
   color: #fff !important;
-  background-color: var(--aqua);
+  background-color: var(--blue);
   text-transform: capitalize;
 }
 
@@ -2371,7 +2381,7 @@ ul {
   }
 
   .main_menu .main-menu-item .nav-item:hover {
-    background-color: lightblue;
+    background-color: var(--aqua);
   }
 
   /* line 148, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_menu.scss */
@@ -2525,9 +2535,9 @@ ul {
   height: 100%;
   position: absolute;
   content: "";
-  right: 10%;
+  right: 107px;
   background-size: 46%;
-  bottom: -74px;
+  bottom: -105px;
   z-index: -1;
   background: url(../img/banner_bg.png) top right no-repeat;
 }
@@ -2874,8 +2884,8 @@ ul {
   display: inline-block;
   border-radius: 50%;
   color: #fff;
-  background: -moz-linear-gradient(0deg, var(--magenta) 0%, var(--pink) 100%);
-  background: -webkit-linear-gradient(0deg, var(--magenta) 0%, var(--pink) 100%);
+  background: -moz-linear-gradient(0deg, var(--green) 0%, var(--lightgreen) 100%);
+  background: -webkit-linear-gradient(0deg, var(--green) 0%, var(--lightgreen) 100%);
 }
 
 /* line 77, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_service.scss */
@@ -2925,8 +2935,8 @@ ul {
 
 /* line 107, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_service.scss */
 .service_part .single_service_part:hover {
-  background-image: -moz-linear-gradient(-117deg, var(--magenta) 0%, var(--pink) 100%);
-  background-image: -webkit-linear-gradient(-117deg, var(--magenta) 0%, var(--pink) 100%);
+  background-image: -moz-linear-gradient(-117deg, var(--lightgreen) 0%, var(--green) 100%);
+  background-image: -webkit-linear-gradient(-117deg, var(--lightgreen) 0%, var(--green) 100%);
 }
 
 /* line 112, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_service.scss */
@@ -2965,7 +2975,7 @@ ul {
   height: 72px;
   line-height: 72px;
   font-size: 30px;
-  color: #ab7636;
+  color: var(--lightgreen);
 }
 
 /********** single service *************/
@@ -3303,7 +3313,7 @@ ul {
 /**************** our_offer css end ****************/
 /* line 2, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_cta_area.scss */
 .cta_area {
-  background-color: #ab7636;
+  background-color: var(--blue);
   padding: 115.5px 0px;
   text-align: center;
 }
@@ -6078,7 +6088,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 2, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_footer.scss */
 .footer-area {
-  background-color: #162b45;
+  background-color: var(--darkblue);
   padding: 130px 0px 20px;
 }
 
@@ -6139,7 +6149,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 18, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_footer.scss */
 .footer-area .single-footer-widget p {
-  color: #999999;
+  color: var(--white);
   font-size: 14px;
   line-height: 1.8;
 }
@@ -6173,7 +6183,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 39, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_footer.scss */
 .footer-area .single-footer-widget ul li a {
-  color: #999;
+  color: var(--white);
   -webkit-transition: 0.5s;
   transition: 0.5s;
   font-size: 15px;
@@ -6406,7 +6416,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 208, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_footer.scss */
 .footer-area .copyright_part_text p {
-  color: #777777;
+  color: var(--white);
   text-align: left;
 }
 
@@ -6505,7 +6515,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 276, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_footer.scss */
 .footer_menu ul li a {
-  color: #999999 !important;
+  color: var(--white) !important;
   padding: 0px 22px;
 }
 
