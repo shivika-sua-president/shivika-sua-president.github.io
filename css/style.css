@@ -11,10 +11,6 @@
   --black: black;
 }
 
-@import url(//db.onlinewebfonts.com/c/e65887ff9d62e672232e19c5e0a8862d?family=Nouvelle+Vague);
-@font-face {
-  font-family: "Nouvelle Vague"; src: url("//db.onlinewebfonts.com/t/e65887ff9d62e672232e19c5e0a8862d.eot"); src: url("//db.onlinewebfonts.com/t/e65887ff9d62e672232e19c5e0a8862d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e65887ff9d62e672232e19c5e0a8862d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/e65887ff9d62e672232e19c5e0a8862d.woff") format("woff"), url("//db.onlinewebfonts.com/t/e65887ff9d62e672232e19c5e0a8862d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/e65887ff9d62e672232e19c5e0a8862d.svg#Nouvelle Vague") format("svg"); } 
-
 /**************** extend css start ****************/
 @import url("https://fonts.googleapis.com/css?family=Cardo|Roboto:400,400i|Rufina");
 /* line 6, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_extends.scss */
@@ -180,7 +176,7 @@ a:hover {
 /* line 84, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_common.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #161d22;
-  font-family: "Cardo", serif;
+  font-family: "Poller One", "Cardo", serif;
 }
 
 /* line 88, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_common.scss */
@@ -628,7 +624,7 @@ ul {
   text-transform: capitalize;
   color: #fff;
   border: 2px solid #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poller One", "Roboto", sans-serif;
 }
 
 /* line 69, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_button.scss */
@@ -2275,7 +2271,7 @@ ul {
   color: #000000;
   font-size: 16px;
   padding: 38px 25px;
-  font-family: "Cardo", serif;
+  font-family: "Poller One", "Cardo", serif;
   text-transform: capitalize;
   line-height: 12px;
 }
@@ -2381,7 +2377,7 @@ ul {
   }
 
   .main_menu .main-menu-item .nav-item:hover {
-    background-color: var(--aqua);
+    background-color: var(--blue);
   }
 
   /* line 148, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_menu.scss */
@@ -2630,7 +2626,7 @@ ul {
 /* line 89, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_banner.scss */
 .banner_part .banner_text h1 {
   font-size: 50px;
-  font-family: "Rufina", serif;
+  font-family: "Poller One", "Rufina", serif;
   font-weight: 400;
   margin-bottom: 27px;
   line-height: 1.273;
@@ -4101,7 +4097,7 @@ ul {
 .client_review_text h3 {
   font-size: 22px;
   font-weight: 500;
-  font-family: "Cardo", serif;
+  font-family: "Poller One", "Cardo", serif;
   margin-top: 50px;
   margin-bottom: 10px;
 }
@@ -5147,7 +5143,7 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--darkblue);
   line-height: 40px;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 /* line 387, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_elements.scss */
