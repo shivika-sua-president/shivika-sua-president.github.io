@@ -4735,7 +4735,7 @@ sup,
 sub,
 u,
 del {
-  color: #ab7636;
+  color: var(--blue);
 }
 
 /* line 93, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_elements.scss */
@@ -5093,7 +5093,10 @@ h1, h2, h3, h4, h5, h6 {
 .progress-table {
   background: #f9f9ff;
   padding: 15px 0px 30px 0px;
-  min-width: 800px;
+}
+
+.progress-table .single-item {
+  padding-left: 1.875rem;
 }
 
 /* line 361, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_elements.scss */
@@ -5123,12 +5126,25 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
 }
 
+.progress-table .month {
+  width: 20%;
+  padding-left: 1.875rem;
+}
+
+.progress-table .action {
+  width: 80%;
+  padding-left: 1.875rem;
+}
+
 /* line 377, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_elements.scss */
+.progress-table .table-head,
 .progress-table .table-head .serial,
 .progress-table .table-head .country,
 .progress-table .table-head .visit,
-.progress-table .table-head .percentage {
-  color: #415094;
+.progress-table .table-head .percentage,
+.progress-table .table-head .month,
+.progress-table .table-head .action {
+  color: var(--darkblue);
   line-height: 40px;
   text-transform: uppercase;
   font-weight: 500;
@@ -5142,6 +5158,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* line 391, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_elements.scss */
+.progress-table .table-row,
 .progress-table .table-row .serial,
 .progress-table .table-row .country,
 .progress-table .table-row .visit,
@@ -5234,11 +5251,11 @@ h1, h2, h3, h4, h5, h6 {
 .unordered-list li:before {
   content: "";
   position: absolute;
-  width: 14px;
-  height: 14px;
-  border: 3px solid #ab7636;
+  width: 0.6rem;
+  height: 0.6rem;
+  border: 0.15rem solid var(--green);
   background: #fff;
-  top: 4px;
+  top: 0.5rem;
   left: 0;
   border-radius: 50%;
 }
@@ -6614,7 +6631,13 @@ h1, h2, h3, h4, h5, h6 {
 /* line 42, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_breadcrumb.scss */
 .breadcrumb .breadcrumb_iner .breadcrumb_iner_item p {
   font-size: 15px;
-  color: #000;
+  color: var(--white);
+  text-transform: capitalize;
+}
+
+.breadcrumb .breadcrumb_iner .breadcrumb_iner_item p b {
+  font-size: 15px;
+  color: var(--white);
   text-transform: capitalize;
 }
 
