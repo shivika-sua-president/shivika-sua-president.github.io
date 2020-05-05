@@ -260,6 +260,10 @@ img {
   max-width: 100%;
 }
 
+.header_logo {
+  max-width: 65%;
+}
+
 /* line 154, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_common.scss */
 a:focus, .button:focus, button:focus, .btn:focus {
   text-decoration: none;
@@ -2940,7 +2944,7 @@ ul {
 .service_part .single_service_part:hover h2 {
   font-size: 22px;
   text-transform: capitalize;
-  margin-top: 32px;
+  margin-top: 1rem;
   color: #fff;
 }
 
@@ -2961,7 +2965,7 @@ ul {
 /* line 133, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_service.scss */
 .service_part .single_service_part:hover p {
   display: block;
-  margin-top: 20px;
+  margin-top: 0.5rem;
   color: #fff;
 }
 
