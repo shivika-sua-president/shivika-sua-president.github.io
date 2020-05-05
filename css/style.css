@@ -15,7 +15,7 @@
 @import url("https://fonts.googleapis.com/css?family=Cardo|Roboto:400,400i|Rufina");
 /* line 6, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_extends.scss */
 .btn_1 {
-  background-image: linear-gradient(to left, var(--aqua) 0%, var(--black) 49%, var(--aqua) 100%);
+  background-color: var(--blue)
 }
 
 /**************** extend css start ****************/
@@ -585,8 +585,9 @@ ul {
 
 /* line 38, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_button.scss */
 .btn_1:hover {
-  color: #fff !important;
+  color: var(--blue) !important;
   background-position: right center;
+  background-color: var(--white);
 }
 
 @media (max-width: 575px) {
