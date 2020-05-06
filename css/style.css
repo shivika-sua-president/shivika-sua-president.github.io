@@ -3001,7 +3001,7 @@ ul {
   font-size: 22px;
   text-transform: capitalize;
   margin-top: 32px;
-  color: #fff;
+  color: black;
 }
 
 @media (max-width: 575px) {
@@ -3022,7 +3022,7 @@ ul {
 .service_part .single_service_part:hover p {
   display: block;
   margin-top: 20px;
-  color: #fff;
+  color: black;
 }
 
 /* line 139, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_service.scss */
