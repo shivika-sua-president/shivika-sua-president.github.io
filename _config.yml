@@ -3,3 +3,5 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 title: "Shivika for President" # the name of your site, e.g. ACME Corp.
 plugins:
   - jekyll-sitemap
+sass:
+    style: compressed
