@@ -3395,9 +3395,11 @@ ul {
 
 /* line 170, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_our_offer.scss */
 .our_offer .single_offer_part .single_offer .hover_text p {
+  font-size: 0.8rem;
   color: #fff;
   margin-bottom: 9px;
   margin-top: 13px;
+  padding: 0 1rem 0 1rem;
 }
 
 /* line 181, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_our_offer.scss */
