@@ -2297,6 +2297,7 @@ ul {
   padding: 9px 41px;
   border-radius: 50px;
   background-color: var(--blue);
+  text-align: center;
 }
 
 /* line 77, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_menu.scss */
@@ -2536,7 +2537,6 @@ ul {
   height: 100%;
   position: absolute;
   content: "";
-  right: 107px;
   background-size: 46%;
   bottom: -105px;
   z-index: -1;
