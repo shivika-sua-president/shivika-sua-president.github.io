@@ -2294,7 +2294,7 @@ ul {
   color: var(--white);
   font-size: 16px;
   font-weight: bold;
-  padding: 9px 41px;
+  padding: 0.1rem 41px;
   border-radius: 50px;
   background-color: var(--blue);
   text-align: center;
@@ -3034,7 +3034,7 @@ ul {
 .service_part .single_service_part:hover span {
   background: white;
   width: 72px;
-  height: 72px;
+  height: 72px; 
   line-height: 72px;
   font-size: 30px;
   color: var(--lightgreen);
