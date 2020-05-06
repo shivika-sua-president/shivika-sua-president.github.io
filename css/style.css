@@ -15,7 +15,7 @@
 @import url("https://fonts.googleapis.com/css?family=Cardo|Roboto:400,400i|Rufina");
 /* line 6, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_extends.scss */
 .btn_1 {
-  background-image: linear-gradient(to left, var(--aqua) 0%, var(--black) 49%, var(--aqua) 100%);
+  background-color: var(--blue)
 }
 
 /**************** extend css start ****************/
@@ -258,6 +258,10 @@ h5 {
 /* line 151, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_common.scss */
 img {
   max-width: 100%;
+}
+
+.header_logo {
+  max-width: 65%;
 }
 
 /* line 154, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_common.scss */
@@ -585,8 +589,9 @@ ul {
 
 /* line 38, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_button.scss */
 .btn_1:hover {
-  color: #fff !important;
+  color: var(--blue) !important;
   background-position: right center;
+  background-color: var(--white);
 }
 
 @media (max-width: 575px) {
@@ -2289,9 +2294,10 @@ ul {
   color: var(--white);
   font-size: 16px;
   font-weight: bold;
-  padding: 9px 41px;
+  padding: 0.1rem 41px;
   border-radius: 50px;
   background-color: var(--blue);
+  text-align: center;
 }
 
 /* line 77, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_menu.scss */
@@ -2531,7 +2537,6 @@ ul {
   height: 100%;
   position: absolute;
   content: "";
-  right: 107px;
   background-size: 46%;
   bottom: -105px;
   z-index: -1;
@@ -2884,6 +2889,36 @@ ul {
   background: -webkit-linear-gradient(0deg, var(--green) 0%, var(--lightgreen) 100%);
 }
 
+.service_part .single_service_part .single_service_text.crisis span {
+  background: -moz-linear-gradient(0deg, var(--red) 0%, var(--red) 100%);
+  background: -webkit-linear-gradient(0deg, var(--red) 0%, var(--red) 100%);
+}
+
+.service_part .single_service_part .single_service_text.helpline span {
+  background: -moz-linear-gradient(0deg, var(--pink) 0%, var(--pink) 100%);
+  background: -webkit-linear-gradient(0deg, var(--pink) 0%, var(--pink) 100%);
+}
+
+.service_part .single_service_part .single_service_text.agile span {
+  background: -moz-linear-gradient(0deg, var(--blue) 0%, var(--blue) 100%);
+  background: -webkit-linear-gradient(0deg, var(--blue) 0%, var(--blue) 100%);
+}
+
+.service_part .single_service_part .single_service_text.navigate span {
+  background: -moz-linear-gradient(0deg, var(--yellow) 0%, var(--yellow) 100%);
+  background: -webkit-linear-gradient(0deg, var(--yellow) 0%, var(--yellow) 100%);
+}
+
+.service_part .single_service_part .single_service_text.guarantee span {
+  background: -moz-linear-gradient(0deg, var(--green) 0%, var(--green) 100%);
+  background: -webkit-linear-gradient(0deg, var(--green) 0%, var(--green) 100%);
+}
+
+.service_part .single_service_part .single_service_text.engage span {
+  background: -moz-linear-gradient(0deg, var(--aqua) 0%, var(--aqua) 100%);
+  background: -webkit-linear-gradient(0deg, var(--aqua) 0%, var(--aqua) 100%);
+}
+
 /* line 77, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_service.scss */
 .service_part .single_service_part .single_service_text h2 {
   font-size: 18px;
@@ -2927,6 +2962,7 @@ ul {
   -webkit-transition: 1s;
   transition: 1s;
   list-style: 1.8;
+  font-size: 0.85rem;
 }
 
 /* line 107, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_service.scss */
@@ -2935,12 +2971,43 @@ ul {
   background-image: -webkit-linear-gradient(-117deg, var(--lightgreen) 0%, var(--green) 100%);
 }
 
+/* line 107, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_service.scss */
+.service_part .single_service_part:hover .crisis {
+  background-image: -moz-linear-gradient(-117deg, var(--red) 0%, var(--red) 100%);
+  background-image: -webkit-linear-gradient(-117deg, var(--red) 0%, var(--red) 100%);
+}
+
+.service_part .single_service_part:hover .helpline {
+  background-image: -moz-linear-gradient(-117deg, var(--pink) 0%, var(--pink) 100%);
+  background-image: -webkit-linear-gradient(-117deg, var(--pink) 0%, var(--pink) 100%);
+}
+
+.service_part .single_service_part:hover .navigate {
+  background-image: -moz-linear-gradient(-117deg, var(--yellow) 0%, var(--yellow) 100%);
+  background-image: -webkit-linear-gradient(-117deg, var(--yellow) 0%, var(--yellow) 100%);
+}
+
+.service_part .single_service_part:hover .guarantee {
+  background-image: -moz-linear-gradient(-117deg, var(--green) 0%, var(--green) 100%);
+  background-image: -webkit-linear-gradient(-117deg, var(--green) 0%, var(--green) 100%);
+}
+
+.service_part .single_service_part:hover .agile {
+  background-image: -moz-linear-gradient(-117deg, var(--blue) 0%, var(--blue) 100%);
+  background-image: -webkit-linear-gradient(-117deg, var(--blue) 0%, var(--blue) 100%);
+}
+
+.service_part .single_service_part:hover .engage {
+  background-image: -moz-linear-gradient(-117deg, var(--aqua) 0%, var(--aqua) 100%);
+  background-image: -webkit-linear-gradient(-117deg, var(--aqua) 0%, var(--aqua) 100%);
+}
+
 /* line 112, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_service.scss */
 .service_part .single_service_part:hover h2 {
   font-size: 22px;
   text-transform: capitalize;
-  margin-top: 32px;
-  color: #fff;
+  margin-top: 1rem;
+  color: black;
 }
 
 @media (max-width: 575px) {
@@ -2960,18 +3027,72 @@ ul {
 /* line 133, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_service.scss */
 .service_part .single_service_part:hover p {
   display: block;
-  margin-top: 20px;
-  color: #fff;
+  margin-top: 0.5rem;
+  color: black;
 }
 
 /* line 139, ../../01 cl html template/New folder/May 2019/174 Ariclaw Lawyer/Ariclaw Lawyer Html/sass/_service.scss */
 .service_part .single_service_part:hover span {
   background: white;
   width: 72px;
-  height: 72px;
+  height: 72px; 
   line-height: 72px;
   font-size: 30px;
   color: var(--lightgreen);
+}
+
+.service_part .single_service_part .crisis:hover span {
+  background: white;
+  width: 72px;
+  height: 72px;
+  line-height: 72px;
+  font-size: 30px;
+  color: var(--red);
+}
+
+.service_part .single_service_part .helpline:hover span {
+  background: white;
+  width: 72px;
+  height: 72px;
+  line-height: 72px;
+  font-size: 30px;
+  color: var(--pink);
+}
+
+.service_part .single_service_part .agile:hover span {
+  background: white;
+  width: 72px;
+  height: 72px;
+  line-height: 72px;
+  font-size: 30px;
+  color: var(--blue);
+}
+
+.service_part .single_service_part .navigate:hover span {
+  background: white;
+  width: 72px;
+  height: 72px;
+  line-height: 72px;
+  font-size: 30px;
+  color: var(--yellow);
+}
+
+.service_part .single_service_part .guarantee:hover span {
+  background: white;
+  width: 72px;
+  height: 72px;
+  line-height: 72px;
+  font-size: 30px;
+  color: var(--green);
+}
+
+.service_part .single_service_part .engage:hover span {
+  background: white;
+  width: 72px;
+  height: 72px;
+  line-height: 72px;
+  font-size: 30px;
+  color: var(--aqua);
 }
 
 /********** single service *************/
