@@ -1,5 +1,3 @@
----
----
 /**************** common factors ****************/
 :root {
   --red: #B8006D;
@@ -3037,7 +3035,7 @@ ul {
 .service_part .single_service_part:hover span {
   background: white;
   width: 72px;
-  height: 72px;
+  height: 72px; 
   line-height: 72px;
   font-size: 30px;
   color: var(--lightgreen);
